@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      let nombre = prompt("Introduce una palabra en minúsculas:");
+      console.log(nombre);
+      let caracteres = nombre.length;
+      console.log(caracteres);
+      let minicaract = caracteres / 2;
+      console.log(minicaract);
+      let minúscula = nombre.substring(0, minicaract);
+      console.log(minúscula);
+      let mayúsculas = nombre.substring(minicaract);
+      console.log(mayúsculas);
+      let MaySelección = mayúsculas.toUpperCase();
+      console.log(MaySelección);
+      console.log(minúscula + MaySelección);
+    </script>
+  </body>
+</html>
